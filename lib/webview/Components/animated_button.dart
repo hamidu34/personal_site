@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:sprung/sprung.dart';
 
 class AnimatedButton extends StatefulWidget {
-  final String title;
   final String index;
+  final String title;
   AnimatedButton({
-    required this.title,
     required this.index,
+    required this.title,
   });
 
   @override
